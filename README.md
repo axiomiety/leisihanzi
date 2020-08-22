@@ -30,6 +30,12 @@ Excellent documentation on SVG paths from Mozilla: https://developer.mozilla.org
 ## Bonus points
  * be able to super-impose 2 characters and make common portions disappear! 
 
+# extract SVG path from glyph
+
+looks like the path might be inverted (y is upside-down). there's misc.transform. calling Transform gives an identity, and you can call rotate(math.pi) for instance.
+
+would make a lot more sense if i could draw something i recognised instead, but no go. there's also a scale method which may come in handy later.
+
 # Braindump
 
 OTF format!
